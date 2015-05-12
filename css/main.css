@@ -45,8 +45,8 @@ background: #ffffff !important;
 }
 
 #custom-nav a {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
+	font-family: saint-andrews;
+	text-transform: lowercase;
 	font-size: 15pt;
 }
 
@@ -124,12 +124,11 @@ hr {
 }
 
 #second {
-	background: #2c2c2c;
-	/*background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);*/
-	/*background: url(../img/bg.jpg);*/
-	/*background-repeat: no-repeat;*/
-	height: 800px;
-	padding-top: 80px;
+	background-size: cover;
+	background: url(../img/ivy-bg-2.png);
+	background-repeat: no-repeat;
+	height: auto;
+	padding-top: 50px;
 	padding-bottom: 100px;
 
 	-webkit-box-shadow: 0 5px 10px -4px #131313;
@@ -142,8 +141,18 @@ hr {
 	color: #ffffff;
 }
 
+.custom-text-dark {
+	text-align: justify;
+	color: #333333;
+}
+
 .div-title-white {
 	color: #ffffff;
+	font-size: 50pt;
+}
+
+.div-title-dark {
+	color: #333333;
 	font-size: 50pt;
 }
 
@@ -188,7 +197,7 @@ hr {
 }
 
 #third {
-	height: auto;
+	height: 800px;
 	padding-top: 80px;
 	padding-bottom: 100px;
 	background-color: #1f1f1f;
