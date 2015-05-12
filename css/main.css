@@ -13,7 +13,7 @@
 
 .name {
 	position: relative;
-	top: 100px;
+	top: 200px;
 	font-size: 8em;
 	line-height: 120px;
 	margin-bottom: 20px;
@@ -64,11 +64,21 @@ background: #ffffff !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 800px;
+	background-attachment: fixed;
 	padding-left: 80px;
 	-webkit-box-shadow: 0 5px 10px -4px #131313;
      -moz-box-shadow: 0 5px 10px -4px #131313;
           box-shadow: 0 5px 10px -4px #131313;
 }
+
+.sub-font {
+  /*font-family: saint-andrews;*/
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  top: 136px;
+  text-align: right;
+ }
 
 .main-intro {
 	color: #ffffff;
@@ -114,11 +124,11 @@ hr {
 }
 
 #second {
-	background-color: #0f0f0f;
-	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);
+	background: #2c2c2c;
+	/*background: url(http://api.thumbr.it/whitenoise-361x370.png?background=#0f0f0fff&noise=626262&density=36&opacity=23);*/
 	/*background: url(../img/bg.jpg);*/
 	/*background-repeat: no-repeat;*/
-	height: auto;
+	height: 800px;
 	padding-top: 80px;
 	padding-bottom: 100px;
 
@@ -127,8 +137,14 @@ hr {
           box-shadow: 0 5px 10px -4px #131313;
 }
 
-#second p {
-	color: #1f1f1f;
+.custom-text-white {
+	text-align: justify;
+	color: #ffffff;
+}
+
+.div-title-white {
+	color: #ffffff;
+	font-size: 50pt;
 }
 
 .gpoy {
