@@ -2,15 +2,32 @@
 	font-family: 'Oswald', sans-serif;
 }*/
 
+@font-face {
+    font-family: saint-andrews;
+    src: url(../fonts/Saint-Andrews-Queen.woff);
+}
+
+.custom-font {
+	font-family: saint-andrews;
+}
+
+.name {
+	position: relative;
+	top: 100px;
+	font-size: 8em;
+	line-height: 120px;
+	margin-bottom: 20px;
+}
+
 .top-bar {
   position: fixed !important;
   z-index: 1000;
   width: 100%;
-  background: #242424;
+  background: #ffffff;
 }
 
 .top-bar-section ul li a {
-background: #242424 !important;
+background: #ffffff !important;
 }
 
 .center-top-bar {
@@ -33,15 +50,19 @@ background: #242424 !important;
 	font-size: 15pt;
 }
 
+#custom-nav a {
+	color: #333333;
+}
+
 #custom-nav a:hover {
 	color: #7f2135;
 }
 
 #first {
 	/*background: url(http://fc06.deviantart.net/fs70/f/2014/151/9/1/first_by_payazoh-d7kgkuy.jpg);*/
-	background: url(../img/bg.jpg);
+	background: url(../img/ivy-bg.png);
 	background-size: cover;
-	background-position-x: -11px;
+	background-repeat: no-repeat;
 	height: 800px;
 	padding-left: 80px;
 	-webkit-box-shadow: 0 5px 10px -4px #131313;
