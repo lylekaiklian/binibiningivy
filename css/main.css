@@ -197,7 +197,7 @@ hr {
 }
 
 #third {
-	height: 800px;
+	height: auto;
 	padding-top: 80px;
 	padding-bottom: 100px;
 	background-color: #1f1f1f;
@@ -211,27 +211,27 @@ hr {
 }
 
 #third .tabs-content .content .image-container {
-	height: 200px;
+	height: 480px;
 	background-color: #ffffff;
 	margin-bottom: 20px;
 	-webkit-transition: all .5s;
 }
 
 #third .tabs-content .content .image-container2 {
-	height: 200px;
+	height: 480px;
 	background-color: #ffffff;
 	margin-bottom: 20px;
 	-webkit-transition: all .5s;
 }
 
 #third .tabs-content .content .image-container-custom {
-	height: 200px;
+	height: 480px;
 	background-color: #ffffff;
 	margin-bottom: 20px;
 	-webkit-transition: all .5s;
 }
 
-#third .tabs-content .content .image-container:hover {
+/*#third .tabs-content .content .image-container:hover {
 	height: 400px;
 
 }
@@ -260,7 +260,7 @@ hr {
 	height: 400px;
 	background-position: -280px;	
 }
-
+*/
 #third .tabs-content .content .img-1 {
 	background: url(../img/fashion.jpg);
 	background-size: cover;
@@ -286,14 +286,14 @@ hr {
 	background: url(../img/fashion4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 17%;
+	background-position-x: -144px;
 }
 
 #third .tabs-content .content .img-5 {
 	background: url(../img/fashion5.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 17%;
+	background-position-x: -229px;
 }
 
 #third .tabs-content .content .img-6 {
@@ -307,21 +307,21 @@ hr {
 	background: url(../img/fashion7.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 42%;
+	background-position-x: -321px;
 }
 
 #third .tabs-content .content .img-8 {
 	background: url(../img/fashion8.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 15%;
+	background-position-x: -173px;
 }
 
 #third .tabs-content .content .img-9 {
 	background: url(../img/fashion9.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 45%;
+	background-position-x: 45%;
 }
 
 #third .tabs-content .content .img-10 {
@@ -356,7 +356,7 @@ hr {
 	background: url(../img/fashion14.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 4%;
+	background-position-x: -273px;
 }
 
 #third .tabs-content .content .img-15 {
@@ -455,6 +455,111 @@ hr {
 
 #third .tabs-content .conceptual-grid .img-1 {
 	background: url(../img/conceptual.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-2 {
+	background: url(../img/conceptual2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-3 {
+	background: url(../img/conceptual3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -327px;
+}
+
+#third .tabs-content .conceptual-grid .img-4 {
+	background: url(../img/conceptual4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-5 {
+	background: url(../img/conceptual5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -327px;
+}
+
+#third .tabs-content .conceptual-grid .img-6 {
+	background: url(../img/conceptual6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 84%;
+}
+
+#third .tabs-content .conceptual-grid .img-7 {
+	background: url(../img/conceptual7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+}
+
+#third .tabs-content .conceptual-grid .img-8 {
+	background: url(../img/conceptual8.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 40%;
+}
+
+#third .tabs-content .conceptual-grid .img-9 {
+	background: url(../img/conceptual9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-10 {
+	background: url(../img/conceptual10.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-11 {
+	background: url(../img/conceptual11.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-12 {
+	background: url(../img/conceptual12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-13 {
+	background: url(../img/conceptual13.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-14 {
+	background: url(../img/conceptual14.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-15 {
+	background: url(../img/conceptual15.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 50%;
+}
+
+#third .tabs-content .conceptual-grid .img-16 {
+	background: url(../img/conceptual16.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-y: 50%;
